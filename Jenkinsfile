@@ -1,4 +1,3 @@
-def gv
 
 pipeline {   
     agent any
