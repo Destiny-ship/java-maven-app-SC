@@ -22,7 +22,7 @@ pipeline {
             }
         }
 
-        stage("build and push image") {
+        stage("build and push image to dh") {
             steps {
                 script {
                     buildImage 'destinyship/demo-app:jma-3.0'
